@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<url>
+    <node>
+        <key>getWeatherInfo</key>
+        <expires>"300"</expires>
+        <netType>get</netType>
+        <mockClass>com.curry.stephen.lcappframework.interfaces</mockClass>
+        <api>http://www.weather.com.cn/data/sk/101010100.html</api>
+    </node>
+    <node>
+        <key>login</key>
+        <expires>0</expires>
+        <netType>post</netType>
+        <api>http://www.weather.com.cn/data/login.api</api>
+    </node>
+</url>
