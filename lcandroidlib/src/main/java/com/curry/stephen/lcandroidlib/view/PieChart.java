@@ -1,4 +1,4 @@
-package com.curry.stephen.lcandroidlib.ui;
+package com.curry.stephen.lcandroidlib.view;
 
 import android.content.Context;
 import android.graphics.Canvas;
