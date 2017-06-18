@@ -19,4 +19,22 @@
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"/>
 
+    <com.curry.stephen.lcandroidlib.view.PieChart
+        android:id="@+id/Pie"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp"
+        app:showText="true"
+        app:labelHeight="20dp"
+        app:labelWidth="110dp"
+        app:labelY="85dp"
+        app:labelPosition="left"
+        app:highlightStrength="1.12"
+        android:background="@android:color/white"
+        app:pieRotation="0"
+        app:labelColor="@android:color/black"
+        app:autoCenterPointerInSlice="true"
+        app:pointerRadius="4dp"
+        />
+
 </RelativeLayout>
